@@ -1,0 +1,128 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "맑은 고딕";
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1100px;
+  height: 100px;
+  margin: 0 auto;
+  /* background-color: gold; */
+}
+
+#logo {
+  display: inline-block;
+  width: 130px;
+  height: 70px;
+  margin: 15px;
+  background-image: url("../img/logo.jpg");
+}
+
+header > nav {
+  float: right;
+  width: 740px;
+  height: 30px;
+  margin: 35px 15px;
+  /* background-color: pink;  */
+}
+
+header > nav > ul {
+  list-style-type: none;
+}
+header > nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1em;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+
+#slider {
+  width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url("../img/2.jpg");
+  background-repeat: no-repeat;
+  /* background-color: tomato; */
+}
+
+section {
+  width: 1100px;
+  height: 280px;
+  margin: 0 auto;
+  /* background-color: cyan; */
+  text-align: center;
+}
+
+section > article {
+  text-align: left;
+  float: left;
+  width: 340px;
+  height: 145px;
+  margin: 30px 0 0 20px;
+  /* background-color: yellow; */
+}
+
+section > article > h3 {
+  text-align: left;
+  margin: 0 0 5px 0;
+}
+section > article > h4 {
+  margin: 0;
+}
+section > article > p {
+  font-size: small;
+  line-height: 1.5;
+}
+
+section > article img {
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
+article .icon {
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin: 0 0 0 5px;
+  background-color: white;
+  text-align: center;
+}
+article .icon img {
+  float: left;
+  margin: 0 0 0 20px;
+}
+article .icon span {
+  display: block;
+  text-align: center;
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  margin: 10px 0 0 0px;
+}
+
+footer {
+  width: 1100px;
+  height: 100px;
+  /* background-color: #eee; */
+  margin: 0 auto;
+}
+
+footer > p {
+  position: relative;
+  float: right;
+  margin: 35px 100px;
+  font-size: small;
+  /* background-color: pink; */
+  color: rgb(117, 117, 117);
+}
