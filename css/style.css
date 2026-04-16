@@ -28,6 +28,15 @@ header {
   background-image: url("../img/logo.jpg");
 }
 
+#logo2 {
+  display: inline-block;
+  width: 130px;
+  height: 70px;
+  margin: 15px;
+  background-image: url("../img/logo2.jpg");
+  background-repeat: no-repeat;
+}
+
 header > nav {
   float: right;
   width: 740px;
@@ -114,7 +123,7 @@ article .icon span {
 footer {
   width: 1100px;
   height: 100px;
-  /* background-color: #eee; */
+  background-color: #eee;
   margin: 0 auto;
 }
 
